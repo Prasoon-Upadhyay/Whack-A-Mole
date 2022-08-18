@@ -1,0 +1,167 @@
+h1{
+    text-align: center;
+    color: #F675A8;
+    font-family: 'Space Mono', monospace;
+    font-size: 6rem !important;
+    padding: 2%;
+    margin: 5%;
+}
+
+.start:hover{
+    background: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    background-color: #af266a;
+    color: #fff;
+}
+
+.start{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    padding: 0.2% 3%;
+    border: none;
+    margin: 5%;
+    border: #B9005B 1px solid;
+    transition: 0.8s;
+    background-color: #FCE2DB;
+    background: -webkit-linear-gradient(rgb(176, 176, 176), rgb(218, 44, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* body{
+    background-image:linear-gradient(to bottom right, rgb(205, 240, 234),rgb(249, 249, 249),rgb(246, 198, 234),rgb(250, 244, 183));
+    background-repeat: no-repeat;
+} */
+
+.container-div{
+    padding: 7%;
+    text-align: center;
+    background-image:linear-gradient(to bottom right, rgb(232, 181, 212),rgb(232, 222, 232),rgb(246, 198, 234),rgb(250, 244, 183));
+    background-repeat: no-repeat;
+    margin : 0% 0%;
+    background-size: 400% 400%;
+    -webkit-animation: main-menu 10s ease infinite;
+    -moz-animation: main-menu 10s ease infinite;
+    animation: main-menu 10s ease infinite;
+
+    }
+   @keyframes main-menu {
+    0% {
+        background-position: 50% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+.start a{
+    text-decoration: none;
+    color:#B9005B;
+}
+
+.start a:hover{
+    color: #fff;
+}
+
+.socials{
+    list-style-type: none;
+    text-align: center;
+}
+
+.socials li{
+    display: inline-block;
+    padding: 3%;
+    text-align: center;
+    padding-right: 3%;
+    
+}
+
+.socials a{
+    color: #F675A8;
+}
+
+
+.socials i{
+    color: #F675A8;
+    padding: 50%;
+    transition: 0.3s;
+    border-radius: 50%;
+
+}
+.socials i{
+    color: #F675A8;
+    padding: 50%;
+    transition: 0.3s;
+    border-radius: 50%;
+
+}.socials .instagram{
+    color: #F675A8;
+    padding: 50%;
+    transition: 0.3s;
+    border-radius: 50%; 
+
+}.socials .twitter{
+    color: #745de4 ;
+    padding: 50%;
+    transition: 0.3s;
+    border-radius: 50%;
+
+}
+.socials .github{
+    color: #03354b;
+    padding: 50%;
+    transition: 0.3s;
+    border-radius: 50%;
+
+}
+.socials i:hover{
+    background-color: #F675A8;
+    color: #fff;
+    border: #fff 2px solid;
+    border-radius: 50%;
+}
+
+.socials .instagram:hover{
+    background-color: #F675A8;
+    color: #fff;
+    border: #fff 2px solid;
+    border-radius: 50%;
+
+}.socials .twitter:hover{
+    background-color: #745de4;
+    color: #fff;
+    border: #fff 2px solid;
+    border-radius: 50%;
+}
+.socials .github:hover{
+    background-color: #03354b;
+    color: #fff;
+    border: #fff 2px solid;
+    border-radius: 50%;
+}
+
+.retry-btn{
+    overflow: hidden;
+}
+
+.footer{
+    margin: 0% ;
+    border-top: #B9005B 2px solid;
+    z-index: 1;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 2%;
+    color: rgba(246, 117, 168,0.7);
+    font-size: 1rem;
+    font-weight:600;
+    position: relative;
+    left: 30px;
+    font-family: 'Noto Serif Display', serif;
+}
+

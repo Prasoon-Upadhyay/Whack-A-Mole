@@ -1,0 +1,124 @@
+.col-lg-4{
+    margin-top : 2% !important;
+      
+}
+
+body{
+    background-image:linear-gradient(to bottom right, rgb(205, 240, 234),rgb(249, 249, 249),rgb(246, 198, 234),rgb(250, 244, 183));
+    padding: 2%;;
+}
+
+.hole{
+    background-color: #000;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left: 37%
+}
+
+.score{
+    text-align: center;
+    padding: 3%;
+}
+
+.score h1{
+    font-family: 'Silkscreen', cursive;
+    font-size: 5rem !important; 
+    color: #7A4495;
+}
+.score h2{
+    font-family: 'Silkscreen', cursive;
+    font-size: 5rem !important; 
+    color: #7A4495;
+}
+
+.timer{
+    text-align: center;
+    padding: 3%;   
+}
+
+.timer span{
+    font-family: 'Silkscreen', cursive;
+    font-size: 3.5rem;
+    padding: 2%;
+    color: #7A4495;
+}
+
+
+
+
+.mole-img{
+    background-image: url(images/mole.jpg) ;
+
+}
+
+.row-1{
+    text-align: center;
+    animation: 1.2s ease-out 0s onload-1;
+}
+
+.row-2{
+    animation: 1.2s ease-out 0s onload-2;
+}
+
+.row-3{
+    animation: 1.2s ease-out 0s onload-1;
+}
+
+
+@keyframes onload-1 {
+    0%{
+        transform: translateY(-200%);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes onload-2 {
+    0%{
+        transform: translateY(-150%);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes onload-3 {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.retry{
+    text-align: center;
+}
+
+.retry-btn{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    padding: 0.2% 3%;
+    border: none;
+    background-color: rgb(66, 66, 214);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.retry-btn:hover{
+    color: rgb(114, 114, 208);
+    background :  -webkit-linear-gradient(to bottom right, rgb(205, 240, 234),rgb(249, 249, 249),rgb(246, 198, 234),rgb(250, 244, 183));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px rgb(66, 66, 214) solid;
+}
